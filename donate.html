@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>TD Foundation</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="./img/tdf.png" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">                    
+                    <img src="./img/tdf.png" alt="" style="width: 150px; height: auto;">
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="donate.html" class="nav-item nav-link active">Donate</a>
+                        <a href="service.html" class="nav-item nav-link">What We Do</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+        
+        
+        <!-- Page Header Start -->
+        <div class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Donate Now</h2>
+                    </div>
+                    <div class="col-12">
+                        <a href="index.html">Home</a>
+                        <a href="donate.html">Donate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Header End -->
+        
+        
+        <!-- Donate Start -->
+        <div class="container">
+            <div class="donate" data-parallax="scroll" data-image-src="">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="donate-content">
+                            <div class="section-header">
+                                <p>Donate Now</p>
+                                <h2>Let's donate to needy people for better lives</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="donate-form">
+                            <form>
+                                <div class="control-group mb-4">
+                                    <input type="text" class="form-control" placeholder="Name" required="required" />
+                                </div>
+                                <div class="control-group mb-4">
+                                    <input type="email" class="form-control" placeholder="Email" required="required" />
+                                </div>
+                                <div class="btn-group btn-group-toggle mb-4" data-toggle="buttons">
+                                    <label class="btn btn-custom active">
+                                        <input type="radio" name="options"> $1000
+                                    </label>
+                                    <label class="btn btn-custom">
+                                        <input type="radio" name="options"> $2000
+                                    </label>
+                                    <label class="btn btn-custom">
+                                        <input type="radio" name="options"> $3000
+                                    </label>
+                                    <label class="btn btn-custom active">
+                                        <input type="radio" name="options"> $4000
+                                    </label>
+                                    <label class="btn btn-custom">
+                                        <input type="radio" name="options"> $5000
+                                    </label>
+                                </div>
+                                <div class="control-group mb-4">
+                                    <input type="number" class="form-control" value="" placeholder="$ Other amount" />
+                                </div>
+                                <div class="paymethod mb-5">
+                                    <p class="text-white p-0 m-0 fs-6 text-center"><b>Choose payment method</b></p>
+                                    <div class="method d-flex justify-content-center align-items-center mt-3">
+                                        <div class="payimg paypal mx-4" data-toggle="modal" data-target="#paypalModal">
+                                            <img class="" src="./img/paypal.webp" alt="" style="width: 65px; height:63px;">
+                                        </div>
+                                        <div class="payimg btc mx-4" data-toggle="modal" data-target="#btcModal">
+                                            <img class="" src="./img/btc.jpg" alt="" style="width: 65px; height:63px;">
+                                        </div>
+                                        <!-- <div class="payimg eth mx-auto" data-toggle="modal" data-target="#ethModal">
+                                            <img class="" src="./img/eth.png" alt="" style="width: 60px; height:60px;">
+                                        </div>
+                                        <div class="payimg usdt mx-auto" data-toggle="modal" data-target="#usdtModal">
+                                            <img class="" src="./img/usdt.jpg" alt="" style="width: 60px; height:60px;">
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="ihp position-relative text-center">
+                                    <button class="btn btn-custom dbtn" type="submit">I have Paid</button>
+                                    <span>Please only click if you have made payment</span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Donate End -->
+
+
+        <!-- Paypal Modal -->
+        
+        <div class="modal fade" id="paypalModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document" >
+                <div class="paypal-loader mx-auto">
+                    <div class="paypal-loader-inner mx-auto mt-5">
+                    </div>
+                    <p class="text-danger p-0 m-0 mt-2 text-center">Unable to fetch payment data</p>
+                    <p class="p-0 m-0 fs-6 text-center">Try again or pay with Bitcoin</p>
+                </div>
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><b>Paypal Username</b></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="z-index: 99999;">
+                    <span aria-hidden="true" >&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body d-flex">
+                    <input type="text" value="" class="fs-3" id="paypalUsername">
+                    <p class="show_copied"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary fs-5 copy" style="visibility: hidden; opacity:0;"><b>Copy username</b></button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- Donation Modal End -->
+
+        <!-- BTC Modal -->
+        <div class="modal fade" id="btcModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><b>Bitcoin (BTC) Address</b></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="payimg btc mt-3 mx-4" style="cursor:default;">
+                    <img class="" src="./img/btcbar.png" alt="" style="width: 150px; height:150px;">
+                </div>
+                <div class="modal-body d-flex">
+                    <input type="text" value="1B4zkGkbJSjjT3yxScjDWBXxx5hWN8T6pX" class="fs-3" id="btcaddress" disabled>
+                    <p class="show_copied">Copied</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary fs-5 copy" onclick="copybtc()"><b>Copy address</b></button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- Donation Modal End -->
+
+        <!-- ETH Modal -->
+        <!-- <div class="modal fade" id="ethModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><b>Ethereum (ETH) Address</b></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body d-flex">
+                    <input type="text" value="ETHirjfijfi@iij$@ojrifjoigjigj" class="fs-3" id="ethaddress">
+                    <p class="show_copied">Copied</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary fs-5 copy" onclick="copyeth()"><b>Copy address</b></button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="usdtModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><b>TetherUS (USDT) Address</b></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body d-flex">
+                    <input type="text" value="USDTirjfijfi@iij$@ojrifjoigjigj" class="fs-3" id="usdtaddress">
+                    <p class="show_copied">Copied</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary fs-5 copy" onclick="copyusdt()"><b>Copy address</b></button>
+                </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Donation Modal End -->
+
+
+        <!-- Footer Start -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-link">
+                            <h2>Popular Links</h2>
+                            <a href="about.html">About</a>
+                            <a href="donate.html">Donate</a>
+                            <a href="service.html">What we do</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-link">
+                            <h2>Useful Links</h2>
+                            <a href="contact.html">Contact us</a>
+                            <a href="terms-of-use.html">Terms of use</a>
+                            <a href="privacy-policy.html">Privacy policy</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-newsletter">
+                            <h2>Newsletter</h2>
+                            <form>
+                                <input class="form-control" placeholder="Email goes here">
+                                <button class="btn btn-custom">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container copyright">
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
+                        <p>&copy; <a href="index.html">TD Foundation</a> All Right Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Back to top button -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/parallax/parallax.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+        <script>
+            function copyPaypal() {
+                // Get the text field
+                let paypalUsername = document.getElementById("paypalUsername");
+            
+                // Select the text field
+                paypalUsername.select();
+                paypalUsername.setSelectionRange(0, 99999); // For mobile devices
+            
+                 // Copy the text inside the text field
+                navigator.clipboard.writeText(paypalUsername.value);
+            
+                // Alert the copied text
+                //alert("Copied the text: " + paypalUsername.value);
+            }
+
+            function copybtc() {
+                // Get the text field
+                let btcaddress = document.getElementById("btcaddress");
+            
+                // Select the text field
+                btcaddress.select();
+                btcaddress.setSelectionRange(0, 99999); // For mobile devices
+            
+                 // Copy the text inside the text field
+                navigator.clipboard.writeText(btcaddress.value);
+            
+                // Alert the copied text
+                //alert("Copied the text: " + paypalUsername.value);
+            }
+
+            function copyeth() {
+                // Get the text field
+                let ethaddress = document.getElementById("ethaddress");
+            
+                // Select the text field
+                ethaddress.select();
+                ethaddress.setSelectionRange(0, 99999); // For mobile devices
+            
+                 // Copy the text inside the text field
+                navigator.clipboard.writeText(ethaddress.value);
+            
+                // Alert the copied text
+                //alert("Copied the text: " + paypalUsername.value);
+            }
+
+            function copyusdt() {
+                // Get the text field
+                let usdtaddress = document.getElementById("usdtaddress");
+            
+                // Select the text field
+                usdtaddress.select();
+                usdtaddress.setSelectionRange(0, 99999); // For mobile devices
+            
+                 // Copy the text inside the text field
+                navigator.clipboard.writeText(usdtaddress.value);
+            
+                // Alert the copied text
+                //alert("Copied the text: " + paypalUsername.value);
+            }
+        </script>
+    </body>
+</html>
