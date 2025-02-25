@@ -59,10 +59,6 @@ a:focus {
     box-shadow: none;
 }
 
-.container-fluid {
-    max-width: 1366px;
-}
-
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
     font-size: inherit;
